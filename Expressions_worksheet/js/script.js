@@ -15,11 +15,16 @@ console.log("Sparky is " + sparkyAge + " human years old, which is " + sparkyDog
 
 //Slice of Pie Part I
 
-var slicesPerPie = 8;
-var numberOfGuests = 34;
-var piesOrdered = 23;
+var slicesPerPie = 10;
+var numberOfGuests = 14;
+var piesOrdered = 4;
 
 var slicesPerGuest = piesOrdered * slicesPerPie / numberOfGuests;
  
 console.log("Each person ate " + slicesPerGuest + " slices of pizza at the party.");
 
+//Slice of Pie Part II
+
+var sparkySlices = (piesOrdered * slicesPerPie % numberOfGuests);
+
+console.log("Sparky got " + sparkySlices + " slices of pizza.");
