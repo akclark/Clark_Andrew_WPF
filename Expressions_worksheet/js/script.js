@@ -28,3 +28,11 @@ console.log("Each person ate " + slicesPerGuest + " slices of pizza at the party
 var sparkySlices = (piesOrdered * slicesPerPie % numberOfGuests);
 
 console.log("Sparky got " + sparkySlices + " slices of pizza.");
+
+//Average Shopping Bill
+
+var grocerySpending = [75.34, 123.63, 98.51, 100.01, 95.89];
+var totalSpent = grocerySpending[0] + grocerySpending[1] + grocerySpending[2] + grocerySpending[3] + grocerySpending[4];
+var averageSpent = totalSpent / 5;
+
+console.log("You have spent a total of $" + totalSpent + " on groceries over the last 5 weeks.  That is an average of $" + averageSpent + " per week.");
