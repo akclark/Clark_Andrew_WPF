@@ -1,13 +1,17 @@
-//Expressions - Concatenating
+//Expressions - Assignment Operators
 
-/*var firstName = "Andrew";
-var lastName = "Clark";
-var fullName = firstName + " " + lastName;
+//Works with Addition (+=), Subtraction (-=), Multiplication (*=) and Division (/=) 
 
-console.log(fullName);*/
+/*var a = 3;
+a += 4;  //a = a +4;
+console.log(a);
 
-var a = 6;
-var b = 7;
+var a = 3;
+a *= 4;  //a = a *4;
+console.log(a);
+*/
 
-var result = a + b;
-console.log(result);
+var a = 3;
+a ++;  //a = a +1;  a += 1;
+//a --; for subtraction by one, only works for increments of 1
+console.log(a);
