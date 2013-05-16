@@ -25,7 +25,7 @@ console.log("Each person ate " + slicesPerGuest + " slices of pizza at the party
 
 //Slice of Pie Part II
 
-var sparkySlices = (piesOrdered * slicesPerPie % numberOfGuests);
+var sparkySlices = piesOrdered * slicesPerPie % numberOfGuests;
 
 console.log("Sparky got " + sparkySlices + " slices of pizza.");
 
@@ -36,3 +36,24 @@ var totalSpent = grocerySpending[0] + grocerySpending[1] + grocerySpending[2] + 
 var averageSpent = totalSpent / 5;
 
 console.log("You have spent a total of $" + totalSpent + " on groceries over the last 5 weeks.  That is an average of $" + averageSpent + " per week.");
+
+// Discounts
+
+var originalPrice = 139.99;
+var discountPercent = 45;
+var itemDescription = "new grill";
+var salesTaxPercent = 10;
+
+var priceNoTax = originalPrice / (1 + discountPercent / 100);
+var priceWithTax = priceNoTax * (1 + salesTaxPercent / 100);
+
+console.log("Your " + itemDescription + " was originally $" + originalPrice + ", but after a " + discountPercent + "% discount, it is now $" + priceNoTax + " without tax, and $" + priceWithTax + " with tax.");
+
+
+
+
+
+
+
+
+
