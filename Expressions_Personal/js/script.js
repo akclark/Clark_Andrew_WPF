@@ -14,4 +14,6 @@ var billsAverage = billsTotal / 6; //This line calcs the average of the numbers 
 
 console.log("The total of your " + billName + " bills for the last 6 months is $" + billsTotal + ", and the average amount you spend per month on this bill is $" + billsAverage + "."); //This is the output line that is required for the assignment
 
+alert("The total of your " + billName + " bills for the last 6 months is $" + billsTotal + ", and the average amount you spend per month on this bill is $" + billsAverage + "."); //This line tells the average user the output.
+
 
