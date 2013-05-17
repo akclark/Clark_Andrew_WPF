@@ -11,6 +11,6 @@ phoneBills[5] = prompt("And please enter the sixth and final bill amount:");
 var billsTotal = phoneBills[0] + phoneBills[1] + phoneBills[2] + phoneBills[3] + phoneBills[4] + phoneBills[5];
 var billsAverage = billsTotal / 6;
 
-
+console.log("The total of your bills for the last 6 months is $" + billsTotal + ", and the average amount you spend per month on this bill is $" + billsAverage + ".");
 
 
