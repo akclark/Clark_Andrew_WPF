@@ -14,6 +14,6 @@ var totalWattHours = wattsPerHour * hoursPerDay; //Total watts per hour calculat
 var totalKWH = totalWattHours /1000;  //Total kiloWatt-hours used calculation and variable setup
 var kwhPerDays = totalKWH * daysDeviceUsed; //final calculation for kiloWatt hours across the number of days the device is used.
 
-console.log("Your " + wattsPerHour + " watt device uses " + totalWattHours * daysDeviceUsed + " watts for " + daysDeviceUsed + " days, which is " + kwhPerDays + " kiloWatt-hours."); //The requireed console.log declaration
+console.log("Your " + wattsPerHour + " watt " + deviceType + " uses " + totalWattHours * daysDeviceUsed + " watts for " + daysDeviceUsed + " days, which is " + kwhPerDays + " kiloWatt-hours."); //The requireed console.log declaration
 
-alert("Your " + wattsPerHour + " watt device uses " + totalWattHours * daysDeviceUsed + " watts for " + daysDeviceUsed + " days, which is " + kwhPerDays + " kiloWatt-hours."); // I also decided to add an alert since the user won't necessarily be able to see the console.
+alert("Your " + wattsPerHour + " watt " + deviceType + " uses " + totalWattHours * daysDeviceUsed + " watts for " + daysDeviceUsed + " days, which is " + kwhPerDays + " kiloWatt-hours."); // I also decided to add an alert since the user won't necessarily be able to see the console.
