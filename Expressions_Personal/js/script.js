@@ -11,6 +11,6 @@ phoneBills[5] = parseFloat(prompt("And please enter the sixth and final bill amo
 var billsTotal = phoneBills[0] + phoneBills[1] + phoneBills[2] + phoneBills[3] + phoneBills[4] + phoneBills[5]; //This line totals teh user input numbers from above
 var billsAverage = billsTotal / 6; //This line calcs the average of the numbers the user input
 
-console.log("The total of your bills for the last 6 months is $" + billsTotal + ", and the average amount you spend per month on this bill is $" + billsAverage + ".");
+console.log("The total of your bills for the last 6 months is $" + billsTotal + ", and the average amount you spend per month on this bill is $" + billsAverage + "."); //This is the output line that is required for the assignment
 
 
