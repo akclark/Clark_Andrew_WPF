@@ -8,10 +8,5 @@ phoneBills[3] = prompt("Please enter the fourth bill  amount:");
 phoneBills[4] = prompt("Please enter the fifth bill amount:");
 phoneBills[5] = prompt("And please enter the sixth and final bill amount:");
 
+var billsTotal = phoneBills[0] + phoneBills[1] + phoneBills[2] + phoneBills[3] + phoneBills[4] + phoneBills[5];
 
-console.log(phoneBills[0]);
-console.log(phoneBills[1]);
-console.log(phoneBills[2]);
-console.log(phoneBills[3]);
-console.log(phoneBills[4]);
-console.log(phoneBills[5]); 
