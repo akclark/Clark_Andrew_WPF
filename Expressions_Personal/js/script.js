@@ -9,4 +9,8 @@ phoneBills[4] = prompt("Please enter the fifth bill amount:");
 phoneBills[5] = prompt("And please enter the sixth and final bill amount:");
 
 var billsTotal = phoneBills[0] + phoneBills[1] + phoneBills[2] + phoneBills[3] + phoneBills[4] + phoneBills[5];
+var billsAverage = billsTotal / 6;
+
+
+
 
