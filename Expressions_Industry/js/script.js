@@ -2,9 +2,9 @@
 
 //kilowatt - hour conversion per number of days for given watt/hours/days per month, this can be useful for finding out how much a bulb or other device is adding to your electric bill.
 
-alert("This will calculate the number of kWh (kiloWatt-hours) a device will use across a given number of days.");
+alert("This will calculate the number of kWh (kiloWatt-hours) a device will use across a given number of days."); //This bit describes what we are trying to accomplish
 
-var deviceType = prompt("What type of device are we talking about here?");
+var deviceType = prompt("What type of device are we talking about here?"); //Asking for the type of device that is being wondered about
 
 var wattsPerHour = prompt("Please enter the number of watts your device uses:");  //This is where I explain the computation and first variable, and ask for the user to input the variable.
 var hoursPerDay = prompt("Please enter the average number of hours per day the device is used:"); //This is the second variable setup and input by the user.
