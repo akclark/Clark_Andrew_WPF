@@ -8,8 +8,8 @@ phoneBills[3] = parseFloat(prompt("Please enter the fourth bill  amount:")); //A
 phoneBills[4] = parseFloat(prompt("Please enter the fifth bill amount:")); //Asking for fifth number to be placed into the array
 phoneBills[5] = parseFloat(prompt("And please enter the sixth and final bill amount:")); //Asking for sixth number to be placed into the array
 
-var billsTotal = phoneBills[0] + phoneBills[1] + phoneBills[2] + phoneBills[3] + phoneBills[4] + phoneBills[5];
-var billsAverage = billsTotal / 6;
+var billsTotal = phoneBills[0] + phoneBills[1] + phoneBills[2] + phoneBills[3] + phoneBills[4] + phoneBills[5]; //This line totals teh user input numbers from above
+var billsAverage = billsTotal / 6; //This line calcs the average of the numbers the user input
 
 console.log("The total of your bills for the last 6 months is $" + billsTotal + ", and the average amount you spend per month on this bill is $" + billsAverage + ".");
 
