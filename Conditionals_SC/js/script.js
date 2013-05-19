@@ -1,2 +1,7 @@
 // JavaScript Document
-alert("This is in my JavaScript file.");
+if (sunny){
+	goToTheBeach();
+}
+else{
+	goToTheMovies();
+	}
