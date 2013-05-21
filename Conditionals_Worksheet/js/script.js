@@ -1,2 +1,2 @@
-// JavaScript Document
-alert("This is in my JavaScript file.");
+//Andrew K Clark - 21 May 2013 - Conditionals Worksheet
+
