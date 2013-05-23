@@ -10,5 +10,10 @@ if(weightType === "lbs"){ //so if user enters lbs
 }else{ //otherwise
 	weightTypeOpposite = "lbs" //it is set to lbs
 } //end statement
+
 var weight = prompt("Please enter the number of " + weightType + " you would like to convert to " + weightTypeOpposite + ":"); //asking user to input the amount of weight they want to convert
+
+var factor = 2.20462; //added a var for the multiplier or divider
+var convertedWeight //created variable to be filled by calc
+(weightType === "kg") ? convertedWeight = weight * factor : convertedWeight = weight / factor; // calc ternary
 
