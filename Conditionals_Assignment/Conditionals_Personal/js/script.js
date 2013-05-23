@@ -17,4 +17,4 @@ var factor = 2.20462; //added a var for the multiplier or divider
 var convertedWeight //created variable to be filled by calc
 (weightType === "kg") ? convertedWeight = weight * factor : convertedWeight = weight / factor; // calc ternary
 
-console.log(weight + " " + weightType + " is " + convertedWeight + " " + weightTypeOpposite + ".");
+console.log(weight + " " + weightType + " is " + convertedWeight + " " + weightTypeOpposite + "."); // required console.log output of answer
