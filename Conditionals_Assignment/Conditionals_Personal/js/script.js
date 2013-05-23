@@ -3,7 +3,9 @@
 //Weight converter, pounds to kilograms
 
 var weightType = prompt("Will you be entering lbs or kg?"); //asking user to input the first variable as type of weight
-(weightType != "kg" && weightType != "lbs") ? weightType = prompt("Please enter either lbs or kg!") : alert("Thank you!"); //added logical operator to check for proper user input
+if(weightType != "kg" && weightType != "lbs"){
+	 weightType = prompt("Please enter either lbs or kg!");
+}//added logical operator to check for proper user input
 
 if(weightType === "lbs"){ //so if user enters lbs
 	var weightTypeOpposite = "kg" //then var is set to kg
