@@ -9,3 +9,15 @@ if(domainReg == ""){
 }
 
 var hosting = prompt("How much per MONTH does your web hosting cost?");
+
+if(hosting == ""){
+	prompt("Please enter the amount that your website hosting costs per MONTH to maintain:");
+}
+
+var memberSplit = prompt("How many people are you splitting this amount with?");
+
+if(memberSplit == ""){
+	prompt("Please enter the number of people you are splitting this cost with:");
+}
+
+
