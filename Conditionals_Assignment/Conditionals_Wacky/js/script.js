@@ -12,3 +12,6 @@ if (owlOz == ""){
 }
 
 var owlWeight = owlLbs * 16 + owlOz;
+
+var kittens = owlWeight / 13; //average 4 week old kitten weighs 13 ounces
+
