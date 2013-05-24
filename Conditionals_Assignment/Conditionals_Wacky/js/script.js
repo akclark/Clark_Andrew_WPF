@@ -2,16 +2,22 @@
 
 // This will calculate the number of kittens (average of course) that your pet great horned owl weighs
 var owlLbs = prompt("How many lbs does your pet great horned owl weigh?");
-if (owlLbs == ""){
+
+if(owlLbs == ""){
 	owlLbs = prompt("Please enter the number of lbs your owl weighs.");
 }
+	/*parseFloat(owlLbs);*/
 
 var owlOz = prompt("How many ounces does your pet great horned owl weigh?");
-if (owlOz == ""){
+
+if(owlOz == ""){
 	owlOz = prompt("Please enter the number of ounces your owl weighs.");
 }
+	/*parseFloat(owlOz);
+*/
 
-var owlWeight = owlLbs * 16 + owlOz;
+var owlWeight = parseFloat(owlLbs) * 16 + parseFloat(owlOz);
 
-var kittens = owlWeight / 13; //average 4 week old kitten weighs 13 ounces
+var kittens = owlWeight / 13; 
 
+console.log("Your pet owl weighs " + kittens + " kittens.");
