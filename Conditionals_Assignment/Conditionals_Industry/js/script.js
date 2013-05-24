@@ -20,4 +20,7 @@ if(memberSplit == ""){
 	prompt("Please enter the number of people you are splitting this cost with:");
 }
 
+var hostingYearly = hosting * 12;
+var total = parseFloat(hostingYearly) + parseFloat(domainReg);
+var totalYearlyPerMember = total / memberSplit;
 
