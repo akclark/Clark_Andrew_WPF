@@ -20,3 +20,4 @@ var owlWeight = owlLbs * 16 + owlOz; //math for converting total number to ounce
 
 var kittens = owlWeight / 13; //finding number of kittens (average 4 week old kitten weighs 13 oz)
 
+console.log("Your pet owl weighs " + kittens + " kittens."); //added required output message to console
