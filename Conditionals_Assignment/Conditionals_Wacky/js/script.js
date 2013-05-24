@@ -16,7 +16,7 @@ if(owlOz == ""){ //blank input check
 	/*parseFloat(owlOz);
 */
 
-var owlWeight = owlLbs * 16 + owlOz; //math for converting total number to ounces
+var owlWeight = parseFloat(owlLbs) * 16 + parseFloat(owlOz); //math for converting total number to ounces
 
 var kittens = owlWeight / 13; //finding number of kittens (average 4 week old kitten weighs 13 oz)
 
