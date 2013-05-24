@@ -11,4 +11,4 @@ if (owlOz == ""){
 	owlOz = prompt("Please enter the number of ounces your owl weighs.");
 }
 
-
+var owlWeight = owlLbs * 16 + owlOz;
