@@ -8,16 +8,11 @@ if(owlLbs == ""){ //checking for blank input
 } //end statement
 	/*parseFloat(owlLbs);*/
 
-var owlOz = prompt("How many ounces does your pet great horned owl weigh?");
-
-if(owlOz == ""){
-	owlOz = prompt("Please enter the number of ounces your owl weighs.");
-}
+var owlOz = prompt("How many ounces does your pet great horned owl weigh?"); //asking for input of second variable
+// blank line :)
+if(owlOz == ""){ //blank input check
+	owlOz = prompt("Please enter the number of ounces your owl weighs.");//asking again, if blank is entered
+}//end statement
 	/*parseFloat(owlOz);
 */
 
-var owlWeight = parseFloat(owlLbs) * 16 + parseFloat(owlOz);
-
-var kittens = owlWeight / 13; 
-
-console.log("Your pet owl weighs " + kittens + " kittens.");
