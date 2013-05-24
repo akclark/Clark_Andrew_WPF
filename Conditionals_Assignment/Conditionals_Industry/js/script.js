@@ -7,3 +7,5 @@ var domainReg = prompt("How much per year does it cost you for domain name regis
 if(domainReg == ""){
 	prompt("Please enter the amount that your domain costs per year to maintain:");
 }
+
+var hosting = prompt("How much per MONTH does your web hosting cost?");
