@@ -23,4 +23,6 @@ if(memberSplit == ""){
 var hostingYearly = hosting * 12;
 var total = parseFloat(hostingYearly) + parseFloat(domainReg);
 var totalYearlyPerMember = total / memberSplit;
+var totalMonthlyPerMember = totalYearlyPerMember / 12
 
+console.log("Your total amount for the year of $" + total + " when split between " + memberSplit + " people will be $" + totalYearlyPerMember + " each for the year, or $" + totalMonthlyPerMember + " each per month.");
