@@ -16,3 +16,5 @@ if(owlOz == ""){ //blank input check
 	/*parseFloat(owlOz);
 */
 
+var owlWeight = owlLbs * 16 + owlOz; //math for converting total number to ounces
+
