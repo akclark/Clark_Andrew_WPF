@@ -4,3 +4,6 @@
 
 var domainReg = prompt("How much per year does it cost you for domain name registration?");
 
+if(domainReg == ""){
+	prompt("Please enter the amount that your domain costs per year to maintain:");
+}
