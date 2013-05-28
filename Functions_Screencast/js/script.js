@@ -6,6 +6,6 @@ var total = calcArea(30, 20);
 
 function calcArea(w, l){
 	var area = w * l;
-	return area; //function is spitting info out
+	return area; //function is spitting info out to the var "total" that was declared when the function was called
 }
 console.log(total);
