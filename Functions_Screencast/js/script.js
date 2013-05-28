@@ -1,11 +1,18 @@
 // Andrew K Clark - Screencast Work Along - 27 May 2013
 
-//Returning Values
+//Function vs Procedure
 
-var total = calcArea(30, 20);
+/* Procedure is more specific type of function
+- They never return values*/
 
-function calcArea(w, l){
-	var area = w * l;
-	return area; //function is spitting info out to the var "total" that was declared when the function was called
+//This is a function
+function calcArea(width, length){
+	var area = width * length;
+	return area;
 }
-console.log(total);
+
+//This is a procedure
+function calcArea(width, length){
+	var area = width * length;
+	console.log(area) //no return
+}
