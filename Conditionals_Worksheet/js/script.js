@@ -14,3 +14,4 @@ var weight = 250;
 //Ternary Version
 
 (weight >= 250) ? console.log("The competitor qualifies for the heavyweight division.") : console.log("The competitor needs to gain some weight!");
+
