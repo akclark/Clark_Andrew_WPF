@@ -6,15 +6,24 @@ var owlLbs = prompt("How many lbs does your pet great horned owl weigh?"); //the
 if(owlLbs == ""){ //checking for blank input
 	owlLbs = prompt("Please enter the number of lbs your owl weighs."); //asking again for input if blank
 } //end statement
-	/*parseFloat(owlLbs);*/
+
+var owlInt1 = isNaN(owlLbs); //checking to see if the user entered a number or not
+
+if(owlInt1 == true){ // if they did not enter a number
+	owlLbs = prompt("Please enter only a number here."); //then we humbly request again that they do so
+}//end statement
 
 var owlOz = prompt("How many ounces does your pet great horned owl weigh?"); //asking for input of second variable
 // blank line :)
 if(owlOz == ""){ //blank input check
 	owlOz = prompt("Please enter the number of ounces your owl weighs.");//asking again, if blank is entered
 }//end statement
-	/*parseFloat(owlOz);
-*/
+
+var owlInt2 = isNaN(owlOz);
+
+if(owlInt2 == true){
+	owlOz = prompt("Please only enter a number here.");
+}
 
 var owlWeight = parseFloat(owlLbs) * 16 + parseFloat(owlOz); //math for converting total number to ounces
 
