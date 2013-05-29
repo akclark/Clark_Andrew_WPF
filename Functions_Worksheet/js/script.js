@@ -16,5 +16,9 @@ function calculateArea(width, length)
 
 var radius = prompt("What is the radius of the circle in question?");
 var pi = 3.14;
-var circumference = circumCalc (radius, pi);
+var circumference = circumCalc(radius, pi);
 
+function circumCalc(radius, pi){
+	var circ = (radius * 2) * pi;
+	return circ
+}
