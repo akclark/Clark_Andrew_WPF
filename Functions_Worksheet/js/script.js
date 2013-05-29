@@ -13,9 +13,9 @@ function calculateArea(width, length){ //function setup
 
 //Circumference
 
-var radius = prompt("What is the radius of the circle in question?");
-var pi = 3.14;
-var circumference = circumCalc(radius, pi);
+var radius = prompt("What is the radius of the circle in question?"); //First variable setup and user input
+var pi = 3.14; //second varible input
+var circumference = circumCalc(radius, pi); //final variable setup and function invocation
 
 console.log("The circumference of the circle is " + circumference + ".");
 
