@@ -2,15 +2,14 @@
 
 //Example - Calculate the area of a Rectangle
 
-var width = 5;
-var length = 6;
-var area = calculateArea(width, length);
-console.log("The area of the rectangle is " + area + ".");
+var width = 5; //first variable setup
+var length = 6; //Second variable setup
+var area = calculateArea(width, length); //final variable setup, plus calling the function
+console.log("The area of the rectangle is " + area + "."); //output to user
 
-function calculateArea(width, length)
-{
-	return width * length;
-}
+function calculateArea(width, length){ //function setup
+	return width * length;//doing the calc and returning the answer to the area variable
+} //end function
 
 //CIrcumference
 
