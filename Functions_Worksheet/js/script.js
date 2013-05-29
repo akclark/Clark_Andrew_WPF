@@ -24,3 +24,6 @@ function circumCalc(radius, pi){ //initial function setup, with parameter setup
 	return circ //returning the calculated value to the circumference variable
 } //end function
 
+//Stung!!
+
+var weight = prompt("How much does the victim weigh in lbs?");
