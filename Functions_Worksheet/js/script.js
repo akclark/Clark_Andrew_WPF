@@ -17,7 +17,7 @@ var radius = prompt("What is the radius of the circle in question?"); //First va
 var pi = 3.14; //second varible input
 var circumference = circumCalc(radius, pi); //final variable setup and function invocation
 
-console.log("The circumference of the circle is " + circumference + ".");
+console.log("The circumference of the circle is " + circumference + "."); //The required output
 
 function circumCalc(radius, pi){
 	var circ = (radius * 2) * pi;
