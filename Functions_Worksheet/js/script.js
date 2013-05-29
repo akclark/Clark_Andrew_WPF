@@ -27,4 +27,4 @@ function circumCalc(radius, pi){ //initial function setup, with parameter setup
 //Stung!!
 
 var weight = prompt("How much does the victim weigh in lbs?"); //the first variable and user input
-var numberOfStingsPer = 8.666666667;
+var numberOfStingsPer = 8.666666667; //the second variable setup
