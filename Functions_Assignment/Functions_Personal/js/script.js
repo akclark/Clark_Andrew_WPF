@@ -21,12 +21,17 @@ if(splitNum === true){
 	billSplit = prompt("Please enter only numbers here.");
 }
 
+if(billSplit == 1){
+	console.log("The amount of tip you should leave " + serverName + " is $" +  + " for a total of $" +  + ".");
+}else{
+	console.log("The amount of tip each person should leave for " + serverName + " is $" +  + "for a total of $" +  + " each.");
+}
 
 
 
 
 
-
+//Function Section
 
 function numCheck(string){
 	var num = isNaN(string);
