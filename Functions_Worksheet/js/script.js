@@ -29,11 +29,11 @@ function circumCalc(radius, pi){ //initial function setup, with parameter setup
 var weight = prompt("How much does the victim weigh in lbs?"); //the first variable and user input
 var victimType = prompt("What type of animal is the victim?"); //the second variable setup to collect the type of victim for use in the required output
 var numberOfStingsPer = 8.666666667; //the third variable setup
-var total = stingsCalc(weight, numberOfStingsPer); //final variable and function invocation
+var total = stingsCalc(weight, numberOfStingsPer); //final variable and function invocation, including arguments
 
-console.log("It takes " + total + " bee stings to kill an " + victimType + "."); //required output to console.log
+console.log("It takes " + total + " bee stings to kill your " + victimType + "."); //required output to console.log
 
-function stingsCalc(weight, numberOfStingsPer){
-	var stings = weight * numberOfStingsPer;
-	return stings;
-}
+function stingsCalc(weight, numberOfStingsPer){ //setup of the function for the calculation, including parameters
+	var stings = weight * numberOfStingsPer; //well, this is the actual math being done
+	return stings; //returning the result back to the total variable from above
+} //end function
