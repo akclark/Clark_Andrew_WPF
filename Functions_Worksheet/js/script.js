@@ -2,7 +2,7 @@
 
 //Example - Calculate the area of a Rectangle
 
-/*var width = 5; //first variable setup
+var width = 5; //first variable setup
 var length = 6; //Second variable setup
 var area = calculateArea(width, length); //final variable setup, plus calling the function
 console.log("The area of the rectangle is " + area + "."); //output to user
@@ -22,7 +22,7 @@ console.log("The circumference of the circle is " + circumference + "."); //The 
 function circumCalc(radius, pi){ //initial function setup, with parameter setup
 	var circ = (radius * 2) * pi; //the actual calculation
 	return circ //returning the calculated value to the circumference variable
-} //end function*/
+} //end function
 
 //Stung!!
 
