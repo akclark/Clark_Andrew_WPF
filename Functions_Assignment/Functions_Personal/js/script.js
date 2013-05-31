@@ -34,9 +34,9 @@ if(splitNum === true){ //checking function return again
 	billSplit = prompt("Please enter only numbers here."); //asking for appropriate input
 }//end statement
 
-var totalWithSplit = billTotalCalc(billAmount, tipPercent, billSplit);
-var tipAmount = (tipPercent / 100) * billAmount; 
-var tipEach = tipAmount / billSplit;
+var totalWithSplit = billTotalCalc(billAmount, tipPercent, billSplit); //calling the main calc function
+var tipAmount = (tipPercent / 100) * billAmount; // tip amount calc
+var tipEach = tipAmount / billSplit; //tip per person calc
 
 (billSplit == 1) ? console.log("The amount of tip you should leave " + serverName + " is $" + tipAmount + " for a total of $" + totalWithSplit + ".") : console.log("The amount of tip each person should leave for " + serverName + " is $" + tipEach + "for a total of $" + totalWithSplit + " each.");
 
