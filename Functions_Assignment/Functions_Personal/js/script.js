@@ -38,7 +38,7 @@ var totalWithSplit = billTotalCalc(billAmount, tipPercent, billSplit); //calling
 var tipAmount = (tipPercent / 100) * billAmount; // tip amount calc
 var tipEach = tipAmount / billSplit; //tip per person calc
 
-(billSplit == 1) ? console.log("The amount of tip you should leave " + serverName + " is $" + tipAmount + " for a total of $" + totalWithSplit + ".") : console.log("The amount of tip each person should leave for " + serverName + " is $" + tipEach + "for a total of $" + totalWithSplit + " each.");
+(billSplit == 1) ? console.log("The amount of tip you should leave " + serverName + " is $" + tipAmount + " for a total of $" + totalWithSplit + ".") : console.log("The amount of tip each person should leave for " + serverName + " is $" + tipEach + "for a total of $" + totalWithSplit + " each."); //required console.log output in ternary form
 
 
 
