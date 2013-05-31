@@ -25,14 +25,14 @@ if(tipNum === true){ //checking what the function returned
 	tipPercent = prompt("Please enter only numbers here."); //asking for a number if the user did not do so the first time
 }
 
-var billSplit = prompt("How many people are splitting this bill? \nIf you are paying the whole thing, please enter 1.");
+var billSplit = prompt("How many people are splitting this bill? \nIf you are paying the whole thing, please enter 1."); //asking user to input final var
 if(billSplit == ""){ //checking to see if something has been entered, don't know how to check if it's a number yet
 	billSplit = prompt("Please enter a number."); //Another prompt if the user has not entered a value
 } //end statement
-var splitNum = numCheck(billSplit);
-if(splitNum === true){
-	billSplit = prompt("Please enter only numbers here.");
-}
+var splitNum = numCheck(billSplit);//calling number check function again
+if(splitNum === true){ //checking function return again
+	billSplit = prompt("Please enter only numbers here."); //asking for appropriate input
+}//end statement
 
 var totalWithSplit = billTotalCalc(billAmount, tipPercent, billSplit);
 var tipAmount = (tipPercent / 100) * billAmount; 
