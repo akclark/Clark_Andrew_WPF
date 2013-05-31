@@ -26,6 +26,9 @@ if(tipNum === true){
 }
 
 var billSplit = prompt("How many people are splitting this bill? \nIf you are paying the whole thing, please enter 1.");
+if(billSplit == ""){ //checking to see if something has been entered, don't know how to check if it's a number yet
+	billSplit = prompt("Please enter a number."); //Another prompt if the user has not entered a value
+} //end statement
 var splitNum = numCheck(billSplit);
 if(splitNum === true){
 	billSplit = prompt("Please enter only numbers here.");
