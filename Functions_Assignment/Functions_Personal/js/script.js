@@ -16,13 +16,13 @@ if(billNum === true){ // the check of what the function returned
 	billAmount = prompt("Please enter only numbers here."); //asking the user to put a number in if they didn't before
 }// end statement
 
-var tipPercent = prompt("What percentage of your bill would you like to leave for a tip? \n(Usually between 15% and 20%)");
+var tipPercent = prompt("What percentage of your bill would you like to leave for a tip? \n(Usually between 15% and 20%)"); //asking for user input of third var
 if(tipPercent == ""){ //checking to see if something has been entered, don't know how to check if it's a number yet
 	tipPercent = prompt("Please enter the percentage you would like to leave for a tip."); //Another prompt if the user has not entered a value
 } //end statement
-var tipNum = numCheck(tipPercent);
-if(tipNum === true){
-	tipPercent = prompt("Please enter only numbers here.");
+var tipNum = numCheck(tipPercent); //invoking the number check function again
+if(tipNum === true){ //checking what the function returned
+	tipPercent = prompt("Please enter only numbers here."); //asking for a number if the user did not do so the first time
 }
 
 var billSplit = prompt("How many people are splitting this bill? \nIf you are paying the whole thing, please enter 1.");
