@@ -33,6 +33,11 @@ if(billSplit == 1){
 
 //Function Section
 
+function billTotalCalc(billAmount, tipPercent, billSplit){
+	var total = (tipPercent / 100 + 1) * billAmount / billSplit;
+	return total
+}
+
 function numCheck(string){
 	var num = isNaN(string);
 	return num;
