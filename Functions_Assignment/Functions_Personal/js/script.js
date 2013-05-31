@@ -46,13 +46,13 @@ var tipEach = tipAmount / billSplit; //tip per person calc
 
 //Function Section
 
-function billTotalCalc(billAmount, tipPercent, billSplit){
-	var total = (tipPercent / 100 + 1) * billAmount / billSplit;
-	return total
-}
+function billTotalCalc(billAmount, tipPercent, billSplit){//function setup including parameters
+	var total = (tipPercent / 100 + 1) * billAmount / billSplit;//function calculation
+	return total//sending answer back out to variable
+}//end function
 
-function numCheck(string){
-	var num = isNaN(string);
-	return num;
-}
+function numCheck(string){//function setup
+	var num = isNaN(string);//function check
+	return num;//return result
+}//end function
 		
