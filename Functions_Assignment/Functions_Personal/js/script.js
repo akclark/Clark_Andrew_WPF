@@ -21,10 +21,12 @@ if(splitNum === true){
 	billSplit = prompt("Please enter only numbers here.");
 }
 
+var totalWithSplit = billTotalCalc(billAmount, tipPercent, billSplit);
+
 if(billSplit == 1){
-	console.log("The amount of tip you should leave " + serverName + " is $" +  + " for a total of $" +  + ".");
+	console.log("The amount of tip you should leave " + serverName + " is $" +  + " for a total of $" + totalWithSplit + ".");
 }else{
-	console.log("The amount of tip each person should leave for " + serverName + " is $" +  + "for a total of $" +  + " each.");
+	console.log("The amount of tip each person should leave for " + serverName + " is $" +  + "for a total of $" + totalWithSplit + " each.");
 }
 
 
