@@ -2,19 +2,19 @@
 
 //Tip Calculator
 
-var serverName = prompt("What is your server's name?");
+var serverName = prompt("What is your server's name?"); //asking for user input of first variable
 if(serverName == ""){ //checking to see if something has been entered
 	serverName = prompt("Please enter your server's name."); //Another prompt if the user has not entered a value
 } //end statement
 
-var billAmount = prompt("What is the total amount of your bill?");
+var billAmount = prompt("What is the total amount of your bill?"); //asking fo ruser input of second var
 if(billAmount == ""){ //checking to see if something has been entered, don't know how to check if it's a number yet
 	billAmount = prompt("Please enter the total amount of your bill."); //Another prompt if the user has not entered a value
 } //end statement
-var billNum = numCheck(billAmount);
-if(billNum === true){
-	billAmount = prompt("Please enter only numbers here.");
-}
+var billNum = numCheck(billAmount); //calling number check function, I realize this is just as much if not more code than just calling isNaN, but I was experimenting.
+if(billNum === true){ // the check of what the function returned
+	billAmount = prompt("Please enter only numbers here."); //asking the user to put a number in if they didn't before
+}// end statement
 
 var tipPercent = prompt("What percentage of your bill would you like to leave for a tip? \n(Usually between 15% and 20%)");
 if(tipPercent == ""){ //checking to see if something has been entered, don't know how to check if it's a number yet
