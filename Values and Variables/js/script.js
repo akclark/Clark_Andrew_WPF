@@ -1,11 +1,12 @@
 //Values and Variables Workalong
 //Andrew K Clark - 14 July 2013
-//String and Boolean Variables
+//Arrays
 
-var age = 38;  //Number variable
+var muppetNames = ["Kermit", "Miss Piggy"]; //0,1,2,3
 
-var isStudent = false;  //Boolean variable
+muppetNames[1] = "Rizzo"; //changing index #1 to Rizzo
+muppetNames[2] = "Fozzy";
 
-var firstName = "Andrew";
+var num = 1;
 
-var phrase = 'I don\'t know \n you\'ll have to speak with the professor'
+console.log(muppetNames[num]); //let's me see what's in index #1
