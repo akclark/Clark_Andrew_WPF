@@ -1,9 +1,11 @@
 //Values and Variables Workalong
 //Andrew K Clark - 14 July 2013
-//Defining Variables
+//String and Boolean Variables
 
-var age;//declaration
-age = 38; //definition
-//storage container = value
+var age = 38;  //Number variable
 
-var yearOfBirth = 1970; //declaring and defining on the same line
+var isStudent = false;  //Boolean variable
+
+var firstName = "Andrew";
+
+var phrase = 'I don\'t know \n you\'ll have to speak with the professor'
