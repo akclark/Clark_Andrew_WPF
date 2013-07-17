@@ -8,3 +8,4 @@ var numberOfUnits = prompt("Please enter the number of units total that need to 
 
 var numberOfMen = prompt("Please enter the number of workers required to wire one (1) unit:");
 
+var numberOfHours = prompt("Please enter the number of hours each worker is expected to work each day:");
