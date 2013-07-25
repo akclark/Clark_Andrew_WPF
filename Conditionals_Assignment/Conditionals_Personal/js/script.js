@@ -9,8 +9,8 @@ if (volumeType != "quarts" && volumeType != "litres") {
     volumeType = prompt("Please enter either quarts or litres!")
 } //added logical operator and conditional to check for proper user input
 
-if (volumeType === "quarts") {
-    var volumeTypeOpposite = "litres"
-}else{
-    volumeTypeOpposite = "quarts"
-}
+if (volumeType === "quarts") { //if the user enters quarts
+    var volumeTypeOpposite = "litres" //then the var is set to litres
+}else{ //otherwise
+    volumeTypeOpposite = "quarts" //the var is set to quarts
+} //end statement
