@@ -14,3 +14,5 @@ if (volumeType === "quarts") { //if the user enters quarts
 }else{ //otherwise
     volumeTypeOpposite = "quarts" //the var is set to quarts
 } //end statement
+
+var quantity = prompt("Please enter the number of " + volumeType + " you would like to convert to " + volumeTypeOpposite + ":");
