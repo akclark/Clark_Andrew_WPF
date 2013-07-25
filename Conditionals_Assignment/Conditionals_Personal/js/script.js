@@ -21,4 +21,6 @@ if (quantity == "") { //checking to see if the quantity variable is blank
     quantity = prompt("Please enter a number."); //if it is blank, a reminder that a number is needed here.
 }// end statement.
 
-var conversion = 1.05668821; //added a variable for the conversion factor
+var factor = 1.05668821; //added a variable for the conversion factor
+var convertedVolume //created a variable to be filled by the calculation
+(volumeType === "quarts") ? convertedVolume = quantity * factor : convertedVolume = quantity / factor; //calc ternary
