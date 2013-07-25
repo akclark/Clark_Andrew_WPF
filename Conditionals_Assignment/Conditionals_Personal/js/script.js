@@ -17,6 +17,8 @@ if (volumeType === "quarts") { //if the user enters quarts
 
 var quantity = prompt("Please enter the number of " + volumeType + " you would like to convert to " + volumeTypeOpposite + ":"); //requesting the amount of whichever weight they want to convert
 
-if (quantity == "") {
-    quantity = prompt("Please enter a number.");
-}
+if (quantity == "") { //checking to see if the quantity variable is blank
+    quantity = prompt("Please enter a number."); //if it is blank, a reminder that a number is needed here.
+}// end statement.
+
+var conversion = 1.05668821; //added a variable for the conversion factor
