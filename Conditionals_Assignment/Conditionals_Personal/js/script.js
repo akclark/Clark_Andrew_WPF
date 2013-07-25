@@ -4,4 +4,7 @@
 
 //Volume Conversion - Liquid US quarts to litres
 
-var volumeType = prompt("Will you be entering quarts or litres?");
+var volumeType = prompt("Will you be entering quarts or litres?"); //asking for input of the first variable as a type of volume
+if (volumeType != "quarts" && volumeType != "litres") {
+    volumeType = prompt("Please enter either quarts or litres!")
+}
