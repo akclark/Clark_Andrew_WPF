@@ -25,4 +25,4 @@ var factor = 1.05668821; //added a variable for the conversion factor
 var convertedVolume //created a variable to be filled by the calculation
 (volumeType === "quarts") ? convertedVolume = quantity / factor : convertedVolume = quantity * factor; //calc ternary
 
-console.log(quantity + " " + volumeType + " is " + convertedVolume + " " + volumeTypeOpposite + ".");
+console.log(quantity + " " + volumeType + " is " + convertedVolume + " " + volumeTypeOpposite + "."); //required console.log output line
