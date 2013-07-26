@@ -2,9 +2,13 @@
 //Industry Conditionals Assignment
 //25 July 2013
 
-//Pixels to inches conversion
+//Pixels to inches conversion assuming 300 ppi
 
-var pixelHeight =  prompt("How many pixels tall is your image?");
+var pixelHeight = prompt("How many pixels tall is your image?"); //requesting the input of the first var
 if(pixelHeight == "") {
     pixelHeight = prompt("Please enter the number of pixels tall your image is.")
+}
+var pixelWidth = prompt("How many pixels wide is your image?"); //
+if(pixelWidth == "") {
+    pixelWidth = prompt("Please enter the number of pixels wide your image is.")
 }
