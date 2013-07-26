@@ -1,0 +1,7 @@
+//Andrew K Clark
+//Wacky Conditionals
+//25 July 2013
+
+//A calculator if you ever wanted to know approximately how many parakeets you weigh with the assumption that the average weight of a parakeet is 0.253532 lbs.
+
+var yourWeight = prompt("How many pounds do you weigh?");
