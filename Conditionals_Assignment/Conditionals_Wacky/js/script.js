@@ -32,3 +32,4 @@ var yourWeightTotal = parseFloat(yourWeightLbs) * 16 + parseFloat(yourWeightOunc
 
 var parakeets = yourWeightTotal / 4.05651;
 
+console.log("You weigh approximately " + parakeets + " parakeets");
