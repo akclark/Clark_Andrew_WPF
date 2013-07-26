@@ -15,3 +15,5 @@ if(pixelWidth == "") {//checking to see if user input is blank
 
 var inchHeight = pixelHeight / 300;//dividing the number of pixels by the number of assumed pixels per inch
 var inchWidth = pixelWidth / 300;//dividing the number of pixels by the number of assumed pixels per inch
+
+console.log("Your image is " + inchHeight + " inches tall, and " + inchWidth + " inches wide assuming it was shot at 300 ppi."); //
