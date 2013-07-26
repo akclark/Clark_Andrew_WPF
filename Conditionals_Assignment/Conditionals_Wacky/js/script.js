@@ -15,3 +15,15 @@ var weightInt = isNaN(yourWeight);
 if (weightInt == true) {
 	yourWeight = prompt("Please only enter a number here.");
 }
+
+var yourWeightOunces = prompt("Please enter the number of ounces that you weigh.")
+
+if (yourWeightOunces == "") {
+	yourWeightOunces = prompt("Please enter the number of ounces that you weigh.");
+}
+
+var ouncesInt = isNaN(yourWeightOunces);
+
+if (ouncesInt == true) {
+	yourWeightOunces = prompt("Please only enter a number here.");
+}
