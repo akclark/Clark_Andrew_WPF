@@ -13,5 +13,5 @@ if(pixelWidth == "") {//checking to see if user input is blank
     pixelWidth = prompt("Please enter the number of pixels wide your image is.")//if it is blank, requesting appropraite input
 }// end statement
 
-var inchHeight = pixelHeight / 300;
-var inchWidth = pixelWidth / 300;
+var inchHeight = pixelHeight / 300;//dividing the number of pixels by the number of assumed pixels per inch
+var inchWidth = pixelWidth / 300;//dividing the number of pixels by the number of assumed pixels per inch
