@@ -4,16 +4,16 @@
 
 //A calculator if you ever wanted to know approximately how many parakeets you weigh with the assumption that the average weight of a parakeet is 0.253532 lbs.
 
-var yourWeight = prompt("How many pounds do you weigh?");
+var yourWeightLbs = prompt("How many pounds do you weigh?");
 
-if (yourWeight == "") {
-	yourWeight = prompt("Please enter the number of pounds that you weigh.");
+if (yourWeightLbs == "") {
+	yourWeightLbs = prompt("Please enter the number of pounds that you weigh.");
 }
 
-var weightInt = isNaN(yourWeight);
+var weightInt = isNaN(yourWeightLbs);
 
 if (weightInt == true) {
-	yourWeight = prompt("Please only enter a number here.");
+	yourWeightLbs = prompt("Please only enter a number here.");
 }
 
 var yourWeightOunces = prompt("Please enter the number of ounces that you weigh.")
@@ -27,3 +27,5 @@ var ouncesInt = isNaN(yourWeightOunces);
 if (ouncesInt == true) {
 	yourWeightOunces = prompt("Please only enter a number here.");
 }
+
+var yourWeightTotal = parseFloat(yourWeightLbs) * 16 + parseFloat(yourWeightOunces);
