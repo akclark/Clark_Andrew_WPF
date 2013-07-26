@@ -9,3 +9,6 @@ var yourWeight = prompt("How many pounds do you weigh?");
 if (yourWeight == "") {
 	yourWeight = prompt("Please enter the number of pounds that you weigh.");
 }
+
+var weightInt = isNaN(yourWeight);
+
