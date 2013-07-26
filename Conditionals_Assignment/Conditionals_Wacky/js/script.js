@@ -12,3 +12,6 @@ if (yourWeight == "") {
 
 var weightInt = isNaN(yourWeight);
 
+if (weightInt == true) {
+	yourWeight = prompt("Please only enter a number here.");
+}
