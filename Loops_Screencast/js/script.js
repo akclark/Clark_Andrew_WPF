@@ -2,9 +2,9 @@
 //27 July 2013
 //Loops Screencast workalong
 
-var b = 10;
+var b = 50; // sets up the index
 
-while (b > 0) {
+while (b > 0) { //checks the condition
     console.log(b + " kegs on the wall.");
-    b--;
+    b--;//increments or decrements the index.
 }
