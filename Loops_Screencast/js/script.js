@@ -17,4 +17,10 @@ do{ //This block will still be run even if the while protion that follows is not
     console.log(c + " kegs on the wall.");
     c--;
 }
-while (c > 0); 
+while (c > 0);
+
+//For loopshorthand version of the while or do-while loops
+
+for (var = 10; i > 0; i--) {
+    console.log(i + "kegs on the wall.");
+}
