@@ -32,6 +32,19 @@ calcArea();//This says to run the function
 calcArea();
 calcArea();
 
+//Variable scope - the function will always prefer the variables that occur inside of the function
+
+var width = 5;
+
+function calcArea() {
+    var width = 20;
+    var length = 30;
+    var area = width * length;
+    console.log(area);
+}
+
+calcArea();
+
 
 
 
