@@ -25,3 +25,32 @@ function calcArea() {
     var area = width * length;
     console.log(area);
 }
+
+//Function Invocation - Telling the function to run
+
+calcArea();//This says to run the function 
+calcArea();
+calcArea();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
