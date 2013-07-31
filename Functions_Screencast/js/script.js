@@ -94,10 +94,29 @@ function calcArea(width * length) {
     console.log(area); //No return
 }
 
+//Anonymous Functions - also called closures - functions created as the code is run
 
+var functionName = function(){
+    //code to run
+}
 
+functionName();
+//////////////////////////////
+function calcArea(width, length) {
+    var area = width * length;
+    return area;
+}
 
+var calcArea = function(width, length){//defining
+    var area = width * length;
+    return area;
+}
 
+var a = calcArea(20, 30);//invoking
+
+console.log(a);
+
+//anonymous function have to be declared before they are called
 
 
 
