@@ -45,6 +45,29 @@ function calcArea() {
 
 calcArea();
 
+//Arguments and parameters
+
+funcName(argument1, argument2);//argument is the information being passed in
+
+function funcName(parameter1, parameter2) {//parameter is the container for the information within the function
+    //code the function runs
+}
+
+//calcArea(30, 20);
+//
+//function calcArea(w, l){
+//    var area = w * l;
+//    console.log(area);
+//}
+
+function dogYears(age){
+    var dogYears = age * 7;
+    console.log("Sparky is" + dogYears + " years old.");
+}
+
+var age1 = 4;
+dogYears(age1);
+dogYears(5);
 
 
 
