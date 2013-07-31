@@ -70,6 +70,16 @@ dogYears(age1);
 dogYears(5);
 
 
+//Returning Values - getting values back from a function
+
+var total = calcArea(30, 20);//whatever the function returns, store it in the variable total
+
+function calcArea(w, l){
+    var area = w * l;
+    return area;// function is spitting the information out
+}
+console.log(total);
+
 
 
 
