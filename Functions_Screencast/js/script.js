@@ -80,6 +80,21 @@ function calcArea(w, l){
 }
 console.log(total);
 
+//Functions vs Procedures - functions return values, procedures do not. Ever.
+
+//This is a function
+function calcArea(width, length) {
+    var area = width * length;
+    return area;
+}
+
+//This is a procedure
+function calcArea(width * length) {
+    var area = width * length;
+    console.log(area); //No return
+}
+
+
 
 
 
