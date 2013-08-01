@@ -12,23 +12,42 @@ if (firstTrue == true) {// checking to see if it is a number
 }//end statement
 
 var numberOfBuildings = prompt("Please enter the number of buildings total for the project.");//requesting the second variable input
+var secondTrue = isNaN(numberOfBuildings);//setup boolean variable
+
 var numberOfManHours = prompt("Please enter the number of man hours it take to wire one unit.");//requesting the third variable input
+var thirdTrue = isNaN(numberOfManHours);//setup boolean variable
 
+if (secondTrue == false && thirdTrue == false) {
+    var totalManHours = manHourCalc(numberOfUnits, numberOfManHours, numberOfBuildings);//function invocation, including arguments
 
+    console.log("You will need to plan for a total of " + totalManHours + " man hours for your project.");//the required console.log output
 
-var totalManHours = manHourCalc(numberOfUnits, numberOfManHours, numberOfBuildings);//function invocation, including arguments
+    var hoursPerBuilding = function(totalManHours, numberOfBuildings){//defining the anonymous function
+        var total = totalManHours / numberOfBuildings;//the calc
+        return total;//returning the value
+    }//end statement
 
-console.log("You will need to plan for a total of " + totalManHours + " man hours for your project.");//the required console.log output
+    var totalPerBuilding = hoursPerBuilding(totalManHours, numberOfBuildings);//calling the anonymous function
 
-var hoursPerBuilding = function(totalManHours, numberOfBuildings){//defining the anonymous function
-    var total = totalManHours / numberOfBuildings;//the calc
-    return total;//returning the value
-}//end statement
+    console.log("As a side note it will take " + totalPerBuilding + " number of man hours to complete one building.");//a miscelaneous output to   justify the anonymous function
+}else if( secondTrue == true ^ thirdTrue == true){
+    var numberOfBuildings = prompt("Please enter an actual number for the number of buildings total for the project.");//requesting the second variable input
+     var numberOfManHours = prompt("Please enter an actual number for the number of man hours it take to wire one unit.");//requesting the third variable input
+         var totalManHours = manHourCalc(numberOfUnits, numberOfManHours, numberOfBuildings);//function invocation, including arguments
 
-var totalPerBuilding = hoursPerBuilding(totalManHours, numberOfBuildings);//calling the anonymous function
+    console.log("You will need to plan for a total of " + totalManHours + " man hours for your project.");//the required console.log output
 
-console.log("As a side note it will take " + totalPerBuilding + " number of man hours to complete one building.");//a miscelaneous output to justify the anonymous function
+    var hoursPerBuilding = function(totalManHours, numberOfBuildings){//defining the anonymous function
+        var total = totalManHours / numberOfBuildings;//the calc
+        return total;//returning the value
+    }//end statement
 
+    var totalPerBuilding = hoursPerBuilding(totalManHours, numberOfBuildings);//calling the anonymous function
+
+    console.log("As a side note it will take " + totalPerBuilding + " number of man hours to complete one building.");//a miscelaneous output to   justify the anonymous function
+    }else{
+        console.log("You need to learn what numbers are, please try again.")
+           }
 
 
 
