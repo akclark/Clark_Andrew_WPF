@@ -4,9 +4,9 @@
 
 //This function will calculate the number of man hours it takes to wire x number of apartment buildings
 
-var numberOfUnits = prompt("Please enter the number of units in each building");
-var numberOfBuildings = prompt("Please enter the number of buildings total for the project.");
-var numberOfManHours = prompt("Please enter the number of man hours it take to wire one unit.");
+var numberOfUnits = prompt("Please enter the number of units in each building");//requesting the first variable input
+var numberOfBuildings = prompt("Please enter the number of buildings total for the project.");//requesting the second variable input
+var numberOfManHours = prompt("Please enter the number of man hours it take to wire one unit.");//requesting the third variable input
 
 
 
@@ -22,7 +22,7 @@ var numberOfManHours = prompt("Please enter the number of man hours it take to w
 
 
 
-
+//Function Section
 
 
 
