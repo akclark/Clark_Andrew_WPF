@@ -6,6 +6,22 @@
 
 var numberOfUnits = prompt("Please enter the number of units in each building");
 var numberOfBuildings = prompt("Please enter the number of buildings total for the project.");
+var numberOfManHours = prompt("Please enter the number of man hours it take to wire one unit.");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
