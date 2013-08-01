@@ -26,3 +26,10 @@ var numberOfMonths = prompt("Please enter the number of months you wish to calcu
 
 
 
+//Functions
+
+function perMonthCalc(averagePerDay, numberOfMonths) {
+    totalPerMonth = ((numberOfMonths * 30) * averagePerDay) / numberOfMonths;
+    return totalPerMonth;
+}
+
