@@ -33,3 +33,7 @@ function perMonthCalc(averagePerDay, numberOfMonths) {
     return totalPerMonth;
 }
 
+function totalMonths(averagePerDay, numberOfMonths) {
+    total = averagePerDay * (numberOfMonths * 30);
+    return total;
+}
