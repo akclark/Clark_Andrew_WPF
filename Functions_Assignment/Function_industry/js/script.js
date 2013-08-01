@@ -21,12 +21,11 @@ var numberOfManHours = prompt("Please enter the number of man hours it take to w
 
 
 
-
 //Function Section
 
-function manHourCalc(numberOfUnits, numberOfManHours, numberOfBuildings) {
-    var totalManHours = numberOfBuildings * numberOfManHours * numberOfUnits;
-    return totalManHours;
+function manHourCalc(numberOfUnits, numberOfManHours, numberOfBuildings) {//function setup
+    var totalManHours = numberOfBuildings * numberOfManHours * numberOfUnits;//calculation
+    return totalManHours;//returning the value from the function
 }
 
 
