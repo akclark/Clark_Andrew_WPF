@@ -30,7 +30,7 @@ if (secondTrue == false && thirdTrue == false) {
     var totalPerBuilding = hoursPerBuilding(totalManHours, numberOfBuildings);//calling the anonymous function
 
     console.log("As a side note it will take " + totalPerBuilding + " number of man hours to complete one building.");//a miscelaneous output to   justify the anonymous function
-}else if( secondTrue == true ^ thirdTrue == true){
+}else if( secondTrue == true ^ thirdTrue == true){//checking to see if only one of the other two are not numbers
     var numberOfBuildings = prompt("Please enter an actual number for the number of buildings total for the project.");//requesting the second variable input
      var numberOfManHours = prompt("Please enter an actual number for the number of man hours it take to wire one unit.");//requesting the third variable input
          var totalManHours = manHourCalc(numberOfUnits, numberOfManHours, numberOfBuildings);//function invocation, including arguments
@@ -46,7 +46,7 @@ if (secondTrue == false && thirdTrue == false) {
 
     console.log("As a side note it will take " + totalPerBuilding + " number of man hours to complete one building.");//a miscelaneous output to   justify the anonymous function
     }else{
-        console.log("You need to learn what numbers are, please try again.")
+        console.log("You need to learn what numbers are, please try again.")//I mean really, how hard are numbers to figure out.
            }
 
 
