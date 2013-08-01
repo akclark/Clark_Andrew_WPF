@@ -10,6 +10,8 @@ var numberOfManHours = prompt("Please enter the number of man hours it take to w
 
 var totalManHours = manHourCalc(numberOfUnits, numberOfManHours, numberOfBuildings);//function invocation, including arguments
 
+console.log("You will need to plan for a total of " + totalManHours + " for your project.");//the required console.log output
+
 
 
 
