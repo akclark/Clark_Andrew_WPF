@@ -7,11 +7,19 @@
 var averagePerDay = prompt("Please enter the average number of diapers per day your newborn goes through:");
 var numberOfMonths = prompt("Please enter the number of months you wish to calculate for:");
 
-if (averagePerDay == "" || numberOfMonths == "") {
+if(averagePerDay == "" || numberOfMonths == "") {
     var averagePerDay = prompt("Please enter the average number of diapers per day your newborn goes through:");
     var numberOfMonths = prompt("Please enter the number of months you wish to calculate for:");
+    
+    totalAcrossMonths = totalMonths(averagePerDay, numberOfMonths);
+    console.log("The total number of diapers you will use across " + numberOfMonths + " months is: " + totalAcrossMonths + ".");
+    totalPerMonth = perMonthCalc(averagePerDay, numberOfMonths);
+    console.log("Which is " + totalPerMonth + " per month.");
 }else{
     totalAcrossMonths = totalMonths(averagePerDay, numberOfMonths);
+    console.log("The total number of diapers you will use across " + numberOfMonths + " months is: " + totalAcrossMonths + ".");
+    totalPerMonth = perMonthCalc(averagePerDay, numberOfMonths);
+    console.log("Which is " + totalPerMonth + " per month.");
 }
 
 
