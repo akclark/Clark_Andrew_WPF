@@ -5,7 +5,9 @@
 //Tip calculator
 
 var servNam = prompt("What is your server's name?");//asking for first user input
-
+if (servNam == "") {//checking for blank input
+    servNam = prompt("Please enter your server's name:")//asking for input if first result was blank
+}//end statement
 
 var billAmount = prompt("What was the bill total?");//asking for first calc variable
 var percentTip = prompt("Please enter the percentage of your bill that you would like to leave for a tip. \nCommonly between 15% and 20%.");//asking for second calc variable
