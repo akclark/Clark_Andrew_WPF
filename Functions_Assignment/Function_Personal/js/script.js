@@ -27,7 +27,9 @@ if (numSplit === true) {//if they didn't
     splitNum = prompt("Please enter an actual number here:");//we ask them to do so
 }//end statement
 
-
+var splitTotal = totalCalc(billAmount, percentTip, splitNum);//invoked the function, including arguments
+var totalTip = (percentTip / 100) * billAmount;//extra calc variable
+var tipPerPerson = totalTip / splitNum;//calc for amount of tip per person
 
 
 
