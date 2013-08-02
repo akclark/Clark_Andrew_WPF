@@ -26,3 +26,17 @@ var numSplit = isNaN(splitNum);//checking to see if the user entered a number
 if (numSplit === true) {//if they didn't
     splitNum = prompt("Please enter an actual number here:");//we ask them to do so
 }//end statement
+
+
+
+
+
+
+
+
+//Functions
+
+function totalCalc(billAmount, percentTip, splitNum) {//function setup
+    var total = (percentTip / 100 + 1) * billAmount / splitNum;//actually doing the calculation
+    return total;//returning the calc's answer back to the variable
+}//end function
