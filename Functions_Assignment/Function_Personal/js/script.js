@@ -22,3 +22,7 @@ if (numTip === true) {//if they didn't
 }//end statement
 
 var splitNum = prompt("How any people are splitting this bill?");//asking for third calc variable
+var numSplit = isNaN(splitNum);//checking to see if the user entered a number
+if (numSplit === true) {//if they didn't
+    splitNum = prompt("Please enter an actual number here:");//we ask them to do so
+}//end statement
