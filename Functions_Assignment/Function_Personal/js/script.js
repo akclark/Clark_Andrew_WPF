@@ -16,4 +16,9 @@ if (numBill === true) {//if they didn't
 }//end statement
 
 var percentTip = prompt("Please enter the percentage of your bill that you would like to leave for a tip. \nCommonly between 15% and 20%.");//asking for second calc variable
+var numTip = isNaN(percentTip);//checking to see if the user entered a number
+if (numTip === true) {//if they didn't
+    percentTip = prompt("Please enter an actual number here:");//we ask them to do so
+}//end statement
+
 var splitNum = prompt("How any people are splitting this bill?");//asking for third calc variable
