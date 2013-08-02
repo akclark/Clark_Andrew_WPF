@@ -5,3 +5,4 @@
 //Tip calculator
 
 var servNam = prompt("What is your server's name?");
+var billAmount = prompt("What was the bill total?");
