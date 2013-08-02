@@ -31,7 +31,7 @@ var splitTotal = totalCalc(billAmount, percentTip, splitNum);//invoked the funct
 var totalTip = (percentTip / 100) * billAmount;//extra calc variable
 var tipPerPerson = totalTip / splitNum;//calc for amount of tip per person
 
-
+(splitNum == 1) ? console.log("The amount of tip you should leave for " + servNam + " is $" + totalTip + ", for a total of " + splitTotal + ".") : console.log("The tip each person should leave for " + servNam + " is $" + tipPerPerson + " for a total of $" + splitTotal + " each."); //required console.log output
 
 
 
